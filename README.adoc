@@ -3,10 +3,19 @@
 This project is a very simple example of Vert.x application that you can develop and run in Eclipse Che using a Vert
 .x stack (located in `stacks/vertx-stack.json`).
 
-
 Once you have installed the stack in Che, create a black project and clone this repository. You can build the project
  using the `build` command and run it using the `run` command.
 
+== Importing this project
+
+Once you have your workspace, click on `workspace -> Import project...`.
+
+Import the project from Git (https://github.com/cescoffier/vertx-with-che.git). Only the Git url is required.
+
+In the project configuration window, click on `Maven` and `Save`.
+
+To build the project, select the `build` command and click on the green arrow. Once built you can run it by selecting
+ the `run` command.
 
 == Watch mode
 
